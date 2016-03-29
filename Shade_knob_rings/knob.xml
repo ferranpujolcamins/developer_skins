@@ -1,0 +1,25 @@
+<!DOCTYPE template>
+<!--
+  Description:
+    A standard knob.
+  Variables:
+    control: The control to connect to.
+-->
+<Template>
+    <KnobComposed>
+        <TooltipId><Variable name="TooltipId"/></TooltipId>
+        <Size>26f,26f</Size>
+        <Pos><Variable name="Pos"/></Pos>
+        <Ring>knob_ring.svg</Ring>
+        <RingSpanOffset>2</RingSpanOffset>
+        <RingMinSpan>8</RingMinSpan>
+        <BackPath>knob_bg.svg</BackPath>
+        <Connection>
+            <ConfigKey><Variable name="connection"/></ConfigKey>
+        </Connection>
+        <Connection>
+            <ConfigKey><Variable name="visibleconnection"/></ConfigKey>
+            <BindProperty>visible</BindProperty>
+        </Connection>
+    </KnobComposed>
+</Template>
