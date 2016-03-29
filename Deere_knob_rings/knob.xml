@@ -12,11 +12,9 @@
     <Size>40f,34f</Size>
     <Knob>knob_<Variable name="color"/>.svg</Knob>
     <Ring>knob_ring_<Variable name="color"/>.svg</Ring>
-<!--
-    <RingMinSpan>30</RingMinSpan>
--->
     <RingSpanOffset>15</RingSpanOffset>
     <BackPath>knob_bg.svg</BackPath>
+    <MaskBackground/>
     <MinAngle>-135</MinAngle>
     <MaxAngle>135</MaxAngle>
     <KnobCenterYOffset>1.602</KnobCenterYOffset>
