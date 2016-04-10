@@ -51,7 +51,7 @@
 	-->
 
 	<manifest>
-		<title>Shade</title>
+		<title>Shade_knob_rings</title>
 		<author>jus</author>
 		<version>1.12.0.01</version>
 		<description>A 2-deck split-waveform skin with 4 samplers.</description>
@@ -471,7 +471,7 @@
 					#DlgHidden > QPushButton,
 					#DlgAutoDJ > QPushButton,
 					#DlgRecording > QPushButton,
-					#DlgAnalysis > QPushButton { 
+					#DlgAnalysis > QPushButton {
 					    margin: 9px 3px 6px 3px;
 					    padding: 3px 8px;
 					    min-width: 65px;
